@@ -155,6 +155,14 @@ router.get('/viewrequests',verify,async (req,res)=>{
         {
             if(result[i][3]=="0")
                 status[i]="Waiting for Lab Assistant Approval"
+            else if(result[i][3]=="1")
+                status[i]="Waiting for Lab Supervisor Approval"
+            else if(result[i][3]=="2")
+                status[i]="Waiting for Lab Approval"
+            else if(result[i][3]=="3")
+                status[i]="Accepted"
+            else if(result[i][3]=="4")
+                status[i]="Declined"
         }
     }
     else if(req.user[6]=="Lab Assistant")
