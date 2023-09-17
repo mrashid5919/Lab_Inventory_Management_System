@@ -2,5 +2,5 @@
 Low effort CSE 326 demo
 
 # Contributors
-1905099 - Alina Zaman
-1905103 - Mayesha Rashid
+- 1905099 - Alina Zaman
+- 1905103 - Mayesha Rashid
